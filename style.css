@@ -1,0 +1,28 @@
+.wrapper {
+  display: grid;
+  height: 50vh;
+  grid-template:
+    "header header header header" 1fr
+    "content content content nav" 2fr
+    "footer footer footer footer" 1fr/1fr 1fr 1fr 1fr;
+}
+.header {
+  background-color: blue;
+  color: whitesmoke;
+  grid-area: header;
+}
+
+.content {
+  background-color: red;
+  grid-area: content;
+}
+
+.nav {
+  background-color: peru;
+  grid-area: nav;
+}
+
+.footer {
+  background-color: khaki;
+  grid-area: footer;
+}
